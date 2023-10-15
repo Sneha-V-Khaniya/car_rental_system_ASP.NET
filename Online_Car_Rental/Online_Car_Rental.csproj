@@ -67,17 +67,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Data\CarRental.mdf" />
     <Content Include="App_Data\CarRentalDB.mdf" />
     <Content Include="App_Data\CarRentalDB_log.ldf">
       <DependentUpon>CarRentalDB.mdf</DependentUpon>
-    </Content>
-    <Content Include="App_Data\CarRental_log.ldf">
-      <DependentUpon>CarRental.mdf</DependentUpon>
-    </Content>
-    <Content Include="App_Data\newdatabase.mdf" />
-    <Content Include="App_Data\newdatabase_log.ldf">
-      <DependentUpon>newdatabase.mdf</DependentUpon>
     </Content>
     <Content Include="Assets\img\ALTROZ.jpg" />
     <Content Include="Assets\img\AURA.png" />
@@ -103,36 +95,6 @@
     <Content Include="Assets\Libraries\js\bootstrap.bundle.min.js" />
     <Content Include="Assets\Libraries\js\bootstrap.js" />
     <Content Include="Assets\Libraries\js\bootstrap.min.js" />
-    <Content Include="Pikaday-master\.gitattributes" />
-    <Content Include="Pikaday-master\.gitignore" />
-    <Content Include="Pikaday-master\css\pikaday.css" />
-    <Content Include="Pikaday-master\css\site.css" />
-    <Content Include="Pikaday-master\css\theme.css" />
-    <Content Include="Pikaday-master\css\triangle.css" />
-    <Content Include="Pikaday-master\examples\amd.html" />
-    <Content Include="Pikaday-master\examples\aria-label.html" />
-    <Content Include="Pikaday-master\examples\bound-container.html" />
-    <Content Include="Pikaday-master\examples\calendars.html" />
-    <Content Include="Pikaday-master\examples\container.html" />
-    <Content Include="Pikaday-master\examples\date-fns.html" />
-    <Content Include="Pikaday-master\examples\date-range.html" />
-    <Content Include="Pikaday-master\examples\daysInNextMonth.html" />
-    <Content Include="Pikaday-master\examples\diableDayFn.html" />
-    <Content Include="Pikaday-master\examples\jquery-amd.html" />
-    <Content Include="Pikaday-master\examples\jquery.html" />
-    <Content Include="Pikaday-master\examples\moment.html" />
-    <Content Include="Pikaday-master\examples\pick-whole-week.html" />
-    <Content Include="Pikaday-master\examples\position-css-classes.html" />
-    <Content Include="Pikaday-master\examples\positions.html" />
-    <Content Include="Pikaday-master\examples\screenshot.png" />
-    <Content Include="Pikaday-master\examples\theme.html" />
-    <Content Include="Pikaday-master\examples\trigger.html" />
-    <Content Include="Pikaday-master\examples\weeknumbers.html" />
-    <Content Include="Pikaday-master\index.html" />
-    <Content Include="Pikaday-master\pikaday.js" />
-    <Content Include="Pikaday-master\plugins\pikaday.jquery.js" />
-    <Content Include="Pikaday-master\tests\methods.js" />
-    <Content Include="Pikaday-master\tests\module.js" />
     <Content Include="View\Admin\Cars.aspx" />
     <Content Include="View\Admin\Customers.aspx" />
     <Content Include="View\Admin\Home.aspx" />
@@ -247,18 +209,6 @@
     <None Include="packages.config" />
     <Content Include="View\Admin\AdminMaster.Master" />
     <Content Include="View\Customer\CustomerMaster.Master" />
-    <Content Include="Pikaday-master\.editorconfig" />
-    <Content Include="Pikaday-master\.jshintrc" />
-    <Content Include="Pikaday-master\.npmignore" />
-    <Content Include="Pikaday-master\bower.json" />
-    <Content Include="Pikaday-master\CHANGELOG.md" />
-    <Content Include="Pikaday-master\CNAME" />
-    <Content Include="Pikaday-master\component.json" />
-    <Content Include="Pikaday-master\LICENSE" />
-    <Content Include="Pikaday-master\package-lock.json" />
-    <Content Include="Pikaday-master\package.json" />
-    <Content Include="Pikaday-master\README.md" />
-    <Content Include="Pikaday-master\scss\pikaday.scss" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
