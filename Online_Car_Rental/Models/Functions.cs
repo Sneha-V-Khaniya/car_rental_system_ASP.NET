@@ -19,7 +19,7 @@ namespace Online_Car_Rental.Models
 
         public Functions()
         {
-            ConnStr = @"";
+            ConnStr = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=""C:\Users\Sneha\OneDrive\Desktop\5_WAD\Online_Car_Rental_1 (5)\Online_Car_Rental_1\Online_Car_Rental\Online_Car_Rental\App_Data\CarRentalDB.mdf"";Integrated Security=True";
             Conn = new SqlConnection(ConnStr);
             cmd = new SqlCommand();
             cmd.Connection = Conn;
