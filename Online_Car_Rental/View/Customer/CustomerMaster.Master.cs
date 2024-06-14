@@ -11,6 +11,18 @@ namespace Online_Car_Rental.View.Customer
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            CustName.InnerText = Login.CName == "" ? SignUp.CName : Login.CName;    /**/
+            int custId = Login.CustId == 0 ? SignUp.CustId : Login.CustId;
+
+            if(custId == 0 )
+            {
+                LoginState.InnerText = "Login";
+                Greeter.InnerText = "";
+            }
+            else
+            {
+                LoginState.InnerText = "Logout";
+            }
 
         }
     }

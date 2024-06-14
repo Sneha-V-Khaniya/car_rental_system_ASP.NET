@@ -144,7 +144,7 @@
                     <td class="auto-style9">&nbsp;</td>
                     <td class="auto-style6">&nbsp;</td>
                     <td class="auto-style13">Already have an Account?
-                        <asp:HyperLink ID="hlLogIn" runat="server" BorderStyle="None" ForeColor="#0066FF" NavigateUrl="~/View/Login.aspx">LogIn</asp:HyperLink>
+                        <asp:HyperLink ID="hlLogIn" runat="server" BorderStyle="None" ForeColor="#0066FF" NavigateUrl="~/View/Login.aspx" Target="_self">LogIn</asp:HyperLink>
                     </td>
                 </tr>
                 <tr>

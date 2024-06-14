@@ -4,7 +4,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-        <title></title>
+        <title>Login</title>
     <style type="text/css">
         .auto-style1 {
             width: 100%;
@@ -98,7 +98,7 @@
                 <td class="auto-style10">&nbsp;&nbsp;&nbsp; </td>
                 <td class="auto-style7">&nbsp;</td>
                 <td>
-                    not have Account?<asp:HyperLink ID="hlSignUp" runat="server" BorderStyle="None" ForeColor="#0066FF" NavigateUrl="~/View/SignUp.aspx" Target="_blank">SignUp</asp:HyperLink>
+                    not have Account?<asp:HyperLink ID="hlSignUp" runat="server" BorderStyle="None" ForeColor="#0066FF" NavigateUrl="~/View/SignUp.aspx" Target="_self">SignUp</asp:HyperLink>
                 </td>
             </tr>
             <tr>

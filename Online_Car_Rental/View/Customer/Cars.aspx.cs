@@ -30,9 +30,8 @@ namespace Online_Car_Rental.View.Customer
         {
             Conn = new Models.Functions();
             ShowCars();
-            CustName.InnerText = Login.CName == "" ? SignUp.CName : Login.CName;    /**/
+            //CustName.InnerText = Login.CName == "" ? SignUp.CName : Login.CName;    /**/
             Customer = Login.CustId == 0 ? SignUp.CustId : Login.CustId;
-
 
         }
 
